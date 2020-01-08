@@ -1,0 +1,659 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Wp Social - Login, Share, Counter\n"
+"POT-Creation-Date: 2019-12-22 12:56+0600\n"
+"PO-Revision-Date: 2019-12-22 12:56+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-social.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/admin-create-widget.php:19
+msgid "WP Social Login"
+msgstr ""
+
+#: inc/admin-create-widget.php:21
+msgid ""
+"Wp Social Login System for Facebook, Twitter, Linkedin, Dribble, Pinterest, "
+"Wordpress, Instagram, GitHub, Vkontakte and Reddit login from WordPress site."
+msgstr ""
+
+#: inc/admin-create-widget.php:59 inc/elementor/elements.php:42
+msgid "Social Login"
+msgstr ""
+
+#: inc/admin-create-widget.php:66
+msgid "Title:"
+msgstr ""
+
+#: inc/admin-create-widget.php:70 inc/counter-widget.php:113
+#: inc/share-widget.php:78
+msgid "Show the Social Box only :"
+msgstr ""
+
+#: inc/admin-create-widget.php:72 inc/counter-widget.php:115
+#: inc/share-widget.php:80
+msgid "Will show only counter block without title."
+msgstr ""
+
+#: inc/admin-create-widget.php:75
+msgid "Custom Class:"
+msgstr ""
+
+#: inc/counter-widget.php:19
+msgid ""
+"Wp Social Login System for Facebook, Twitter, Linkedin, Dribble, Pinterest, "
+"Post, Comments counter."
+msgstr ""
+
+#: inc/counter-widget.php:21
+msgid "WSLU Social Counter"
+msgstr ""
+
+#: inc/counter-widget.php:75
+msgid "Follow us"
+msgstr ""
+
+#: inc/counter-widget.php:80
+msgid "Counter Title :"
+msgstr ""
+
+#: inc/counter-widget.php:84
+msgid "Providers :"
+msgstr ""
+
+#: inc/counter-widget.php:95 inc/share-widget.php:68
+msgid "Style :"
+msgstr ""
+
+#: inc/counter-widget.php:105
+msgid "Column :"
+msgstr ""
+
+#: inc/counter-widget.php:107
+msgid "3 Column"
+msgstr ""
+
+#: inc/counter-widget.php:108
+msgid "2 Column"
+msgstr ""
+
+#: inc/counter-widget.php:109
+msgid "1 Column"
+msgstr ""
+
+#: inc/counter-widget.php:118 inc/share-widget.php:83
+msgid "Custom Class :"
+msgstr ""
+
+#: inc/counter.php:246
+msgid "Fans"
+msgstr ""
+
+#: inc/counter.php:247 inc/counter.php:249 inc/counter.php:250
+#: inc/counter.php:251
+msgid "Followers"
+msgstr ""
+
+#: inc/counter.php:252 inc/counter.php:254
+msgid "Subscribers"
+msgstr ""
+
+#: inc/counter.php:256
+msgid "Comments"
+msgstr ""
+
+#: inc/counter.php:257
+msgid "Posts"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:18
+msgid "Share Button"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:51 inc/elementor/widgets/share.php:89
+#: template/admin/counter/tab-menu.php:12 template/admin/share/tab-menu.php:12
+#: template/admin/tab-menu.php:15
+msgid "Providers"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:57
+msgid "Select Providers"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:67
+msgid "Select Donate"
+msgstr ""
+
+#: inc/elementor/widgets/share.php:78
+msgid "Custom Class"
+msgstr ""
+
+#: inc/share-widget.php:23
+msgid "WSLU Social Share"
+msgstr ""
+
+#: inc/share-widget.php:25
+msgid ""
+"Wp Social Share System for Facebook, Twitter, Linkedin, Pinterest & 13+ "
+"providers."
+msgstr ""
+
+#: inc/share-widget.php:59
+msgid "SOCIAL SHARE"
+msgstr ""
+
+#: inc/share-widget.php:64
+msgid "Share Title:"
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:7
+#: template/admin/global-setting.php:7 template/admin/share/share-setting.php:7
+msgid "Global setting data have been updated."
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:8
+#: template/admin/counter/providers-counter.php:8
+#: template/admin/counter/style-setting.php:8
+#: template/admin/global-setting.php:8 template/admin/providers-setting.php:8
+#: template/admin/share/share-providers.php:8
+#: template/admin/share/share-setting.php:8
+#: template/admin/share/style-setting.php:8 template/admin/style-setting.php:8
+msgid "Dismiss this notice."
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:20
+#: template/admin/share/share-setting.php:20
+msgid "Hide Icon"
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:34
+#: template/admin/share/share-setting.php:48
+msgid "Hide Label"
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:48
+msgid "Hide Counter"
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:62
+msgid "Cache (hours)"
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:78
+#: template/admin/counter/providers-counter.php:241
+#: template/admin/counter/style-setting.php:37
+#: template/admin/global-setting.php:324
+#: template/admin/providers-setting.php:243
+#: template/admin/share/share-providers.php:126
+#: template/admin/share/share-setting.php:79
+#: template/admin/share/style-setting.php:119
+#: template/admin/style-setting.php:36
+msgid "Save Changes"
+msgstr ""
+
+#: template/admin/counter/counter-setting.php:85
+#: template/admin/global-setting.php:331
+#: template/admin/share/share-setting.php:86
+msgid "Shortcode "
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:7
+#: template/admin/providers-setting.php:7
+#: template/admin/share/share-providers.php:7
+msgid "Providers data have been updated."
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:39
+#: template/admin/providers-setting.php:30
+#: template/admin/share/share-providers.php:37
+msgid "Enabled"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:39
+#: template/admin/providers-setting.php:30
+#: template/admin/share/share-providers.php:37
+msgid "Disabled"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:44
+#: template/admin/counter/providers-counter.php:74
+#: template/admin/providers-setting.php:34
+#: template/admin/providers-setting.php:56
+#: template/admin/share/share-providers.php:42
+#: template/admin/share/share-providers.php:70
+msgid "Settings"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:44
+#: template/admin/providers-setting.php:55
+#: template/admin/share/share-providers.php:42
+msgid "Getting Started"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:87
+#: template/admin/providers-setting.php:161
+#: template/admin/share/share-providers.php:87
+msgid "Enable"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:188
+msgid "Get Access Token"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:211
+#: template/admin/share/share-providers.php:96
+msgid "Default "
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:219
+#: template/admin/share/share-providers.php:104
+msgid "Text below the number"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:227
+#: template/admin/share/share-providers.php:112
+msgid "Label Name"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:269
+msgid " Access Token"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:297
+#: template/admin/counter/providers-counter.php:303
+#: template/admin/counter/providers-counter.php:309
+msgid "Go to APP Settings and Set Callback URL"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:297
+#: template/admin/counter/providers-counter.php:303
+#: template/admin/counter/providers-counter.php:309
+msgid "App Settings "
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:298
+#: template/admin/counter/providers-counter.php:304
+#: template/admin/counter/providers-counter.php:310
+msgid "Add the following URL to the \"Valid OAuth redirect URIs\" field:"
+msgstr ""
+
+#: template/admin/counter/providers-counter.php:314
+msgid "Generate Key"
+msgstr ""
+
+#: template/admin/counter/style-setting.php:7
+#: template/admin/share/style-setting.php:7 template/admin/style-setting.php:7
+msgid "Styles data have been updated."
+msgstr ""
+
+#: template/admin/counter/tab-menu.php:6
+msgid "WP Social Counter Settings"
+msgstr ""
+
+#: template/admin/counter/tab-menu.php:11
+msgid "Counter Settings"
+msgstr ""
+
+#: template/admin/counter/tab-menu.php:13 template/admin/share/tab-menu.php:13
+#: template/admin/tab-menu.php:18
+msgid "Style Settings"
+msgstr ""
+
+#: template/admin/global-setting.php:19
+msgid "Custom login redirect "
+msgstr ""
+
+#: template/admin/global-setting.php:36
+msgid "Show button to wp-login page "
+msgstr ""
+
+#: template/admin/global-setting.php:46
+msgid "wp login form middle "
+msgstr ""
+
+#: template/admin/global-setting.php:51
+msgid "wp login form head"
+msgstr ""
+
+#: template/admin/global-setting.php:57
+msgid "wp login footer "
+msgstr ""
+
+#: template/admin/global-setting.php:62
+msgid "wp login message section "
+msgstr ""
+
+#: template/admin/global-setting.php:73
+msgid "Show button to wp-register page "
+msgstr ""
+
+#: template/admin/global-setting.php:85
+msgid "wp register form middle "
+msgstr ""
+
+#: template/admin/global-setting.php:90
+msgid "wp register form head "
+msgstr ""
+
+#: template/admin/global-setting.php:95
+msgid "wp register footer "
+msgstr ""
+
+#: template/admin/global-setting.php:106
+msgid "Show button to wfp-fundrasing login page "
+msgstr ""
+
+#: template/admin/global-setting.php:117
+msgid "wfp login form outer before "
+msgstr ""
+
+#: template/admin/global-setting.php:122
+msgid "wfp login form outer after "
+msgstr ""
+
+#: template/admin/global-setting.php:127
+msgid "wfp login form inner before "
+msgstr ""
+
+#: template/admin/global-setting.php:132
+msgid "wfp login form inner after "
+msgstr ""
+
+#: template/admin/global-setting.php:137
+msgid "wfp login form start "
+msgstr ""
+
+#: template/admin/global-setting.php:142
+msgid "wfp login form end "
+msgstr ""
+
+#: template/admin/global-setting.php:147
+msgid "wfp login form button before "
+msgstr ""
+
+#: template/admin/global-setting.php:152
+msgid "wfp login form button after "
+msgstr ""
+
+#: template/admin/global-setting.php:157
+msgid "wfp login form message "
+msgstr ""
+
+#: template/admin/global-setting.php:169
+msgid "Show button in wp-comment page "
+msgstr ""
+
+#: template/admin/global-setting.php:180
+msgid "wp comment form top "
+msgstr ""
+
+#: template/admin/global-setting.php:185
+msgid "wp comment form after login"
+msgstr ""
+
+#: template/admin/global-setting.php:196
+msgid "Show button to woocommerce login page "
+msgstr ""
+
+#: template/admin/global-setting.php:207
+msgid "woocommerce login form start "
+msgstr ""
+
+#: template/admin/global-setting.php:213
+msgid "woocommerce login form middle "
+msgstr ""
+
+#: template/admin/global-setting.php:218
+msgid "woocommerce login form end "
+msgstr ""
+
+#: template/admin/global-setting.php:229
+msgid "Show button to woocommerce register page "
+msgstr ""
+
+#: template/admin/global-setting.php:241
+msgid "woocommerce registration form start "
+msgstr ""
+
+#: template/admin/global-setting.php:246
+msgid "woocommerce registration form middle "
+msgstr ""
+
+#: template/admin/global-setting.php:251
+msgid "woocommerce registration form end "
+msgstr ""
+
+#: template/admin/global-setting.php:262
+msgid "Show button to woocommerce billing page "
+msgstr ""
+
+#: template/admin/global-setting.php:273
+msgid "woocommerce before checkout billing form "
+msgstr ""
+
+#: template/admin/global-setting.php:278
+msgid "woocommerce after checkout billing form "
+msgstr ""
+
+#: template/admin/global-setting.php:289
+msgid "Show button to BuddyPress "
+msgstr ""
+
+#: template/admin/global-setting.php:300
+msgid "BuddyPress before register form "
+msgstr ""
+
+#: template/admin/global-setting.php:305
+msgid "BuddyPress account details fileds "
+msgstr ""
+
+#: template/admin/global-setting.php:311
+msgid "BuddyPress after register form "
+msgstr ""
+
+#: template/admin/providers-setting.php:34
+msgid "Get Started"
+msgstr ""
+
+#: template/admin/providers-setting.php:57
+msgid "Buttons"
+msgstr ""
+
+#: template/admin/providers-setting.php:58
+msgid "Usage"
+msgstr ""
+
+#: template/admin/providers-setting.php:100
+msgid "Getting Started "
+msgstr ""
+
+#: template/admin/providers-setting.php:104
+msgid "Create "
+msgstr ""
+
+#: template/admin/providers-setting.php:108
+#: template/admin/providers-setting.php:110
+#: template/admin/providers-setting.php:112
+#: template/admin/providers-setting.php:114
+#: template/admin/providers-setting.php:116
+msgid "Go to <a href=\""
+msgstr ""
+
+#: template/admin/providers-setting.php:118
+msgid "Log in with your "
+msgstr ""
+
+#: template/admin/providers-setting.php:120
+msgid "Click on \"Add New App\" button "
+msgstr ""
+
+#: template/admin/providers-setting.php:122
+msgid "Fill \"Display Name\" and \"Your Email\""
+msgstr ""
+
+#: template/admin/providers-setting.php:124
+msgid "Click on \"Create App ID\" button"
+msgstr ""
+
+#: template/admin/providers-setting.php:127
+msgid "Enter your domain name to the App for Domains"
+msgstr ""
+
+#: template/admin/providers-setting.php:129
+msgid "Fill up the \"Privacy Policy URL\". "
+msgstr ""
+
+#: template/admin/providers-setting.php:131
+#: template/admin/providers-setting.php:141
+msgid "Click on \"Save Changes\""
+msgstr ""
+
+#: template/admin/providers-setting.php:133
+msgid "Click on \""
+msgstr ""
+
+#: template/admin/providers-setting.php:137
+msgid "Add the following URL to the \"Valid OAuth redirect URIs\" field: "
+msgstr ""
+
+#: template/admin/providers-setting.php:138
+msgid " <strong>"
+msgstr ""
+
+#: template/admin/providers-setting.php:143
+msgid ""
+"In the top of the left sidebar, click on \"Settings\" and select \"Basic\""
+msgstr ""
+
+#: template/admin/providers-setting.php:145
+msgid ""
+"Here you can see your \"APP ID\" and you can see your \"App secret\" if you "
+"click on the \"Show\" button. These will be needed in plugin's settings."
+msgstr ""
+
+#: template/admin/providers-setting.php:147
+msgid "By clicking \"Confirm\", the Status of your App will go Live."
+msgstr ""
+
+#: template/admin/providers-setting.php:171
+msgid "App ID - <em>(Required)</em>"
+msgstr ""
+
+#: template/admin/providers-setting.php:179
+msgid "App Secret - <em>(Required)</em>"
+msgstr ""
+
+#: template/admin/providers-setting.php:193
+msgid "Login Label Text "
+msgstr ""
+
+#: template/admin/providers-setting.php:201
+msgid "Logout Label Text "
+msgstr ""
+
+#: template/admin/providers-setting.php:215
+msgid "Shortcode"
+msgstr ""
+
+#: template/admin/providers-setting.php:228
+msgid "Simple Link"
+msgstr ""
+
+#: template/admin/share/share-setting.php:34
+msgid "Hide Text"
+msgstr ""
+
+#: template/admin/share/share-setting.php:62
+msgid "Hide Share Count"
+msgstr ""
+
+#: template/admin/share/style-setting.php:37
+msgid "Body Position"
+msgstr ""
+
+#: template/admin/share/style-setting.php:45
+msgid "Left Floating "
+msgstr ""
+
+#: template/admin/share/style-setting.php:54
+msgid "Right Floating "
+msgstr ""
+
+#: template/admin/share/style-setting.php:61
+msgid "Top Inline "
+msgstr ""
+
+#: template/admin/share/style-setting.php:68
+msgid "Bottom Inline "
+msgstr ""
+
+#: template/admin/share/style-setting.php:76
+#: template/admin/share/style-setting.php:107
+msgid "Disable "
+msgstr ""
+
+#: template/admin/share/style-setting.php:86
+msgid "Content Position"
+msgstr ""
+
+#: template/admin/share/style-setting.php:94
+msgid "After Content "
+msgstr ""
+
+#: template/admin/share/style-setting.php:101
+msgid "Before Content "
+msgstr ""
+
+#: template/admin/share/tab-menu.php:6
+msgid "WP Social Share Settings"
+msgstr ""
+
+#: template/admin/share/tab-menu.php:11
+msgid "Share Settings"
+msgstr ""
+
+#: template/admin/tab-menu.php:6
+msgid "WP Social Login Settings"
+msgstr ""
+
+#: template/admin/tab-menu.php:12
+msgid "Global Settings"
+msgstr ""
+
+#: template/login-btn-html.php:50
+msgid "Logout"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Wp Social - Login, Share, Counter"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wpmet.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Wp Social Login / Social Sharing / Social Counter System for Facebook, "
+"Google, Twitter, Linkedin, Dribble, Pinterest, Wordpress, Instagram, GitHub, "
+"Vkontakte, Reddit and more providers."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wpmet"
+msgstr ""

@@ -1,0 +1,612 @@
+# Copyright (C) 2019 WebARX
+# This file is distributed under the same license as the WebARX plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WebARX 1.4.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/webarx\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-09-11T01:21:02+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: webarx\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "WebARX"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.webarxsecurity.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A powerful WordPress security plugin."
+msgstr ""
+
+#: includes/activation.php:107
+msgid "WebARX is missing requirements and has been <a href=\"%s\">deactivated</a>. Please make sure all requirements are available."
+msgstr ""
+
+#: includes/admin/menu.php:50
+#: includes/admin/menu.php:130
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/menu.php:116
+msgid "Sorry, there was a problem processing your request."
+msgstr ""
+
+#: includes/admin/options.php:143
+msgid "Security Configurations"
+msgstr ""
+
+#: includes/admin/options.php:144
+msgid "<hr style=\"height:1px;border:none;color:#2d3f5a;background-color:#2d3f5a;\"><br> reCAPTCHA"
+msgstr ""
+
+#: includes/admin/options.php:145
+msgid "Firewall settings"
+msgstr ""
+
+#: includes/admin/options.php:146
+msgid ".htaccess Features"
+msgstr ""
+
+#: includes/admin/options.php:147
+msgid "IP Whitelist &amp; Blacklist"
+msgstr ""
+
+#: includes/admin/options.php:148
+msgid "Cookie Notice Settings"
+msgstr ""
+
+#: includes/admin/options.php:149
+#: includes/admin/pages/settings.php:75
+msgid "Login Protection"
+msgstr ""
+
+#: includes/admin/options.php:150
+msgid "<hr style=\"height:1px;border:none;color:#2d3f5a;background-color:#2d3f5a;\"><br> Two Factor Authentication"
+msgstr ""
+
+#: includes/admin/options.php:151
+msgid "<hr style=\"height:1px;border:none;color:#2d3f5a;background-color:#2d3f5a;\"><br> Currently Blocked IP Addresses"
+msgstr ""
+
+#: includes/admin/options.php:152
+msgid "<hr style=\"height:1px;border:none;color:#2d3f5a;background-color:#2d3f5a;\"><br> Whitelisted IP Addresses"
+msgstr ""
+
+#: includes/admin/options.php:156
+msgid "Disable plugin/theme edit"
+msgstr ""
+
+#: includes/admin/options.php:157
+msgid "Remove readme.html"
+msgstr ""
+
+#: includes/admin/options.php:159
+msgid "Stop WPScan"
+msgstr ""
+
+#: includes/admin/options.php:160
+msgid "Disable user enumeration"
+msgstr ""
+
+#: includes/admin/options.php:161
+msgid "Hide WordPress version"
+msgstr ""
+
+#: includes/admin/options.php:162
+msgid "Enable activity log"
+msgstr ""
+
+#: includes/admin/options.php:163
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: includes/admin/options.php:166
+msgid "Post comments form"
+msgstr ""
+
+#: includes/admin/options.php:167
+msgid "Login form"
+msgstr ""
+
+#: includes/admin/options.php:168
+msgid "Registration form"
+msgstr ""
+
+#: includes/admin/options.php:169
+msgid "Password reset form"
+msgstr ""
+
+#: includes/admin/options.php:171
+msgid "Site Key "
+msgstr ""
+
+#: includes/admin/options.php:172
+#: includes/views/2fa-profile-configuration.php:20
+#: includes/views/2fa-profile-configuration.php:23
+msgid "Secret Key"
+msgstr ""
+
+#: includes/admin/options.php:175
+msgid "Enable firewall"
+msgstr ""
+
+#: includes/admin/options.php:176
+msgid "Firewall user role whitelist"
+msgstr ""
+
+#: includes/admin/options.php:178
+msgid "IP Address Header Override"
+msgstr ""
+
+#: includes/admin/options.php:179
+msgid "Disable .htaccess features"
+msgstr ""
+
+#: includes/admin/options.php:180
+msgid "Add security headers"
+msgstr ""
+
+#: includes/admin/options.php:181
+msgid "Prevent default wordpress file access"
+msgstr ""
+
+#: includes/admin/options.php:182
+msgid "Block access to debug.log file"
+msgstr ""
+
+#: includes/admin/options.php:183
+msgid "Disable index views"
+msgstr ""
+
+#: includes/admin/options.php:184
+msgid "Forbid proxy comment posting"
+msgstr ""
+
+#: includes/admin/options.php:185
+msgid "Prevent image hotlinking"
+msgstr ""
+
+#: includes/admin/options.php:186
+msgid "Add custom .htaccess rules here"
+msgstr ""
+
+#: includes/admin/options.php:187
+msgid "Custom .htaccess rules location"
+msgstr ""
+
+#: includes/admin/options.php:189
+msgid "Block IP List"
+msgstr ""
+
+#: includes/admin/options.php:190
+#: includes/admin/options.php:201
+msgid "Whitelist"
+msgstr ""
+
+#: includes/admin/options.php:194
+msgid "Move and rename login page"
+msgstr ""
+
+#: includes/admin/options.php:197
+msgid "Automatic brute-force IP ban"
+msgstr ""
+
+#: includes/admin/options.php:198
+msgid "Logon hours"
+msgstr ""
+
+#: includes/admin/options.php:199
+msgid "Two Factor Authentication"
+msgstr ""
+
+#: includes/admin/options.php:200
+msgid "Blocked"
+msgstr ""
+
+#: includes/admin/options.php:233
+msgid "Restrict access to xmlrpc.php"
+msgstr ""
+
+#: includes/admin/options.php:240
+msgid "If enabled, every user action will be recorded and put to activity logs"
+msgstr ""
+
+#: includes/admin/options.php:247
+msgid "Check this if you want to enable reCAPTCHA on post comments."
+msgstr ""
+
+#: includes/admin/options.php:254
+msgid "Check this if you want to display \"Powered by WebARX\""
+msgstr ""
+
+#: includes/admin/options.php:261
+msgid "Check this if you want to enable cookie notice message."
+msgstr ""
+
+#: includes/admin/options.php:290
+msgid "Check this if you want to enable policy link."
+msgstr ""
+
+#: includes/admin/options.php:325
+msgid "Move login page to hide it from hackers and seekers."
+msgstr ""
+
+#: includes/admin/options.php:326
+msgid "Hide wp-login and wp-admin page from attackers."
+msgstr ""
+
+#: includes/admin/options.php:338
+msgid "WebARX custom login page could not be activated due to your environment setup, it may be conflict with other plugin or specific .htaccess rules."
+msgstr ""
+
+#: includes/admin/options.php:347
+msgid "Disable direct editing of themes or plugins code from Wordpress admin view."
+msgstr ""
+
+#: includes/admin/options.php:353
+msgid "Add security headers to the response by your webserver."
+msgstr ""
+
+#: includes/admin/options.php:360
+msgid "This will attempt to stop basic WPScan scans."
+msgstr ""
+
+#: includes/admin/options.php:366
+msgid "Disable user enumeration to block hackers from getting your usernames."
+msgstr ""
+
+#: includes/admin/options.php:372
+msgid "Move wp-content folder into facebook.com folder and link to it in wp-config.php. saving settings after ticking this will take more time than usual. Just let it reload the page on its own and be patient."
+msgstr ""
+
+#: includes/admin/options.php:373
+msgid "If this setting brakes your website then go to your server files through FTP, rename facebook.com folder to wp-content and erase WebARX section from the top of wp-config.php file."
+msgstr ""
+
+#: includes/admin/options.php:379
+msgid "Removes the WordPress version in the <meta> tag in the HTML output."
+msgstr ""
+
+#: includes/admin/options.php:385
+msgid "Removes the readme.html file from the WordPress root folder."
+msgstr ""
+
+#: includes/admin/options.php:392
+msgid "Prevent access to such files as license.txt, readme.html and wp-config-sample.php"
+msgstr ""
+
+#: includes/admin/options.php:398
+msgid "Check this if you want to turn on the advanced firewall protection on your site."
+msgstr ""
+
+#: includes/admin/options.php:417
+msgid "Against which user roles should the firewall not run against?<br>The firewall will always run against guests.<br>"
+msgstr ""
+
+#: includes/admin/options.php:422
+msgid "Check this if you want to block known malicious connections."
+msgstr ""
+
+#: includes/admin/options.php:428
+msgid "If you would like to override the IP address header that we use to grab the IP address of the visitor, enter the value here. This must be a valid value in the $_SERVER array, for example HTTP_X_FORWARDED_FOR. If the $_SERVER value you enter does not exist, it will fallback to the WebARX IP grab function so ask your hosting company if you are unsure. Leave this empty to use the WebARX IP address grabbing function."
+msgstr ""
+
+#: includes/admin/options.php:434
+msgid "Check this if you want to stop us from writing to your .htaccess file. Note that the current changes to the .htaccess file will remain."
+msgstr ""
+
+#: includes/admin/options.php:440
+msgid "Check this if you want to block access to the debug.log file that WordPress creates when debug logging is enabled."
+msgstr ""
+
+#: includes/admin/options.php:446
+msgid "Check this if you want to disable directory and file listing."
+msgstr ""
+
+#: includes/admin/options.php:452
+msgid "Check this if you want to forbid proxy comment posting."
+msgstr ""
+
+#: includes/admin/options.php:458
+msgid "Check this if you want to automatically ban IP addresses that fail to login multiple times in a short span of time."
+msgstr ""
+
+#: includes/admin/options.php:467
+msgid "Check this if you want to enforce specific logon hours."
+msgstr ""
+
+#: includes/admin/options.php:476
+msgid "Check this if you want to make it possible for users to enable two factor authentication (2FA) on their account."
+msgstr ""
+
+#: includes/admin/options.php:501
+msgid "These are the IP addresses that are currently blocked because of too many failed login attempts.<br>These are not the IP addresses banned by the firewall itself.<br><br>"
+msgstr ""
+
+#: includes/admin/options.php:518
+msgid "Check this if you want to prevent hotlinking to images on your site."
+msgstr ""
+
+#: includes/admin/options.php:524
+msgid "Add custom .htaccess rules here if you know what you are doing, otherwise you may break your site. So be careful."
+msgstr ""
+
+#: includes/admin/options.php:551
+msgid "Check this if you want to enable reCAPTCHA on user login."
+msgstr ""
+
+#: includes/admin/options.php:557
+msgid "Check this if you want to enable reCAPTCHA on registration."
+msgstr ""
+
+#: includes/admin/options.php:563
+msgid "Check this if you want to enable reCAPTCHA on password reset."
+msgstr ""
+
+#: includes/admin/options.php:600
+msgid "<br>Enter the reCAPTCHA site key here. Click <a href=\"https://support.webarxsecurity.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature\">here</a> for a guide on how to get the site / secret key."
+msgstr ""
+
+#: includes/admin/options.php:608
+msgid "<br>Enter the reCAPTCHA secret key here. Click <a href=\"https://support.webarxsecurity.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature\">here</a> for a guide on how to get the site / secret key."
+msgstr ""
+
+#: includes/admin/options.php:635
+msgid "<p>Each rule must be on a new line.<br><br><strong>The following keywords are accepted</strong><br>IP:IPADDRESS<br>PAYLOAD:someval<br>URL:/someurl<br><br><strong>Definitions</strong><br>IP = firewall will not run against the IP<br>PAYLOAD = if the entire payload contains the keyword, the firewall will not proceed<br>URL = if the URL contains given URL, firewall will not proceed<br><br><strong>Example</strong><br>IP:192.168.1.1<br>PAYLOAD:contact_form<br>URL:water<br>URL:/some-form<br><br>In this scenario, the firewall will not run if the IP address is 192.168.1.1 or if the payload contains contact_form or if the URL contains water or if the URL contains /some-form.</p>"
+msgstr ""
+
+#: includes/admin/pages/backup.php:29
+msgid "Backup site files and database"
+msgstr ""
+
+#: includes/admin/pages/backup.php:30
+msgid "Backups are stored in your Google Drive account. In order to save backup, please link your Google account first."
+msgstr ""
+
+#: includes/admin/pages/backup.php:31
+msgid "Connect to Google Drive"
+msgstr ""
+
+#: includes/admin/pages/backup.php:36
+msgid "Backup Settings"
+msgstr ""
+
+#: includes/admin/pages/backup.php:46
+msgid "Backup frequency"
+msgstr ""
+
+#: includes/admin/pages/backup.php:65
+msgid "Max number of backups to keep"
+msgstr ""
+
+#: includes/admin/pages/backup.php:80
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin/pages/backup.php:82
+msgid "Disable Backups"
+msgstr ""
+
+#: includes/admin/pages/backup.php:89
+msgid "Revert to backup"
+msgstr ""
+
+#: includes/admin/pages/backup.php:92
+msgid "Select date to revert "
+msgstr ""
+
+#: includes/admin/pages/backup.php:105
+msgid "Revert method "
+msgstr ""
+
+#: includes/admin/pages/backup.php:115
+msgid "Revert"
+msgstr ""
+
+#: includes/admin/pages/backup.php:116
+msgid "Create Backup"
+msgstr ""
+
+#: includes/admin/pages/cookie-notice.php:14
+#: includes/admin/pages/firewall.php:14
+#: includes/admin/pages/hardening.php:14
+#: includes/admin/pages/login.php:14
+msgid "Save settings"
+msgstr ""
+
+#: includes/admin/pages/htaccess-backup.php:11
+msgid "Backup your .htaccess"
+msgstr ""
+
+#: includes/admin/pages/htaccess-backup.php:13
+msgid "We are doing backup’s automatically. if you need you can download the .htaccess file to your computer here"
+msgstr ""
+
+#: includes/admin/pages/htaccess-backup.php:14
+msgid "Backup .htaccess file to webserver"
+msgstr ""
+
+#: includes/admin/pages/htaccess-backup.php:15
+msgid "Download .htaccess backup file from server"
+msgstr ""
+
+#: includes/admin/pages/htaccess-backup.php:18
+msgid "Restore your .htaccess file"
+msgstr ""
+
+#: includes/admin/pages/htaccess-backup.php:40
+msgid "Restore .htaccess file"
+msgstr ""
+
+#: includes/admin/pages/htaccess-backup.php:43
+msgid "Reset .htaccess to WordPress default"
+msgstr ""
+
+#: includes/admin/pages/htaccess-backup.php:44
+msgid "If you want to reset the .htaccess rules to the default rules of WordPress, press this button."
+msgstr ""
+
+#: includes/admin/pages/htaccess-backup.php:45
+msgid "Reset .htaccess file"
+msgstr ""
+
+#: includes/admin/pages/license.php:14
+msgid "License Information"
+msgstr ""
+
+#: includes/admin/pages/license.php:18
+msgid "License Key"
+msgstr ""
+
+#: includes/admin/pages/license.php:27
+msgid "API Client ID"
+msgstr ""
+
+#: includes/admin/pages/license.php:31
+msgid "API Client Secret Key"
+msgstr ""
+
+#: includes/admin/pages/license.php:43
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/pages/license.php:44
+msgid "Test API"
+msgstr ""
+
+#: includes/admin/pages/logs.php:16
+msgid "Firewall Log"
+msgstr ""
+
+#: includes/admin/pages/logs.php:17
+msgid "Activity Log"
+msgstr ""
+
+#: includes/admin/pages/settings.php:42
+msgid "The WebARX plugin has been turned on!<br>If the status of your license below is activated, please allow 5 to 15 minutes for data to appear on the WebARX portal."
+msgstr ""
+
+#: includes/admin/pages/settings.php:54
+msgid "Note that because this is a multisite/network environment, this settings page will define all default settings for each site.<br>If you would like to change the settings of a specific site, click <a href=\""
+msgstr ""
+
+#: includes/admin/pages/settings.php:56
+msgid "Note that because this is a multisite/network environment, certain settings can only be managed by the super administrator of the WordPress network."
+msgstr ""
+
+#: includes/admin/pages/settings.php:65
+msgid "Hardening"
+msgstr ""
+
+#: includes/admin/pages/settings.php:70
+msgid "Firewall"
+msgstr ""
+
+#: includes/admin/pages/settings.php:80
+msgid "Cookie Notice"
+msgstr ""
+
+#: includes/admin/pages/settings.php:86
+msgid "Logs"
+msgstr ""
+
+#: includes/admin/pages/settings.php:93
+msgid "Htaccess Backup"
+msgstr ""
+
+#: includes/admin/pages/settings.php:98
+msgid "Backup"
+msgstr ""
+
+#: includes/admin/pages/settings.php:105
+msgid "License"
+msgstr ""
+
+#: includes/api.php:90
+msgid "API Keys Missing! Unable to obtain a token."
+msgstr ""
+
+#: includes/api.php:113
+#: includes/api.php:144
+msgid "Unexpected Error! Unable to obtain a token. "
+msgstr ""
+
+#: includes/events/posts.php:34
+msgid "(no title)"
+msgstr ""
+
+#: includes/hide-login.php:76
+msgid "New Login URL"
+msgstr ""
+
+#: includes/hide-login.php:274
+msgid "WebARX: Please upgrade to the latest version of WordPress to activate"
+msgstr ""
+
+#: includes/login.php:83
+msgid "Please enter the 2FA authentication code that is generated on your device."
+msgstr ""
+
+#: includes/login.php:89
+msgid "The 2FA authentication code you entered is invalid."
+msgstr ""
+
+#: includes/login.php:226
+msgid "Access to the login page has been restricted due to set logon hours."
+msgstr ""
+
+#: includes/login.php:226
+msgid "Login Disallowed"
+msgstr ""
+
+#: includes/login.php:286
+msgid "You have entered an incorrect reCAPTCHA value."
+msgstr ""
+
+#: includes/login.php:319
+msgid "You have entered an incorrect reCAPTCHA value. Refresh this page and try again."
+msgstr ""
+
+#: includes/views/2fa-login-form.php:8
+msgid "2FA Code"
+msgstr ""
+
+#: includes/views/2fa-login-form.php:9
+msgid "leave empty if no 2FA setup"
+msgstr ""
+
+#: includes/views/2fa-profile-configuration.php:7
+msgid "Two Factor Authentication Configuration"
+msgstr ""
+
+#: includes/views/2fa-profile-configuration.php:11
+#: includes/views/2fa-profile-configuration.php:14
+msgid "Enable 2FA"
+msgstr ""
+
+#: includes/views/2fa-profile-configuration.php:15
+msgid "Enable 2FA on your account."
+msgstr ""
+
+#: includes/views/2fa-profile-configuration.php:29
+#: includes/views/2fa-profile-configuration.php:32
+msgid "QR Code Image"
+msgstr ""
+
+#: includes/views/2fa-profile-configuration.php:34
+msgid "Scan this image with your 2FA app."
+msgstr ""
+
+#: includes/widget.php:52
+msgid "You have not entered your license."
+msgstr ""

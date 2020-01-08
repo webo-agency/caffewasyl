@@ -1,0 +1,431 @@
+#: related-products-manager-for-woocommerce.php:134
+msgid "Settings"
+msgstr ""
+
+#: related-products-manager-for-woocommerce.php:136
+msgid "Unlock All"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:24
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:149
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:112
+msgid "Random"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:113
+msgid "Date"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:114
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:420
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:435
+msgid "Title"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:117
+msgid "Meta value"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:118
+msgid "Meta value (numeric)"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:120
+msgid "ID"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:121
+msgid "Modified"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:122
+msgid "Menu order"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:123
+msgid "Price"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:127
+msgid "Related Products Manager Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:130
+#, php-format
+msgid ""
+"You may need to <a href=\"%s\" style=\"font-weight:bold;\">clear all "
+"products transients</a> to immediately see results on frontend after "
+"changing plugin's settings. Alternatively you can just update each product "
+"individually to clear its transients."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:136
+#: includes/settings/class-alg-wc-settings-related-products-manager.php:24
+msgid "Related Products Manager"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:137
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:139
+msgid "Documentation"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:154
+msgid "Related products number"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:160
+msgid "Related products columns"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:170
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:196
+msgid "Order"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:175
+msgid "Order by"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:186
+msgid "Meta Key"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:187
+msgid ""
+"Used only if order by \"Meta Value\" or \"Meta Value (Numeric)\" is selected "
+"in \"Order by\"."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:197
+msgid "Ignored if order by \"Random\" is selected in \"Order by\"."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:202
+msgid "Ascending"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:203
+msgid "Descending"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:212
+msgid "Relate"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:217
+msgid "Relate by category"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:218
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:225
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:232
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:267
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:313
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:82
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:224
+msgid "Relate by tag"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:231
+msgid "Relate by product attribute"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:238
+msgid "Attribute type"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:239
+msgid ""
+"If using \"Global attribute\" enter attribute's <em>slug</em> in \"Attribute "
+"name\""
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:244
+msgid "Global attribute"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:245
+msgid "Local attribute"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:250
+#, php-format
+msgid "Attribute name, e.g.: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:251
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:258
+msgid "Required."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:257
+#, php-format
+msgid "Attribute value, e.g.: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:259
+msgid ""
+"Attribute value is required in free version of the plugin. If you want to "
+"omit setting the attribute value and instead use automatically extracted "
+"attribute value of the current product - you will need Related Products "
+"Manager for WooCommerce Pro plugin."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:266
+msgid "Relate manually"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:268
+msgid "This will add metabox to each product's edit page."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:269
+msgid ""
+"You will be able to select related products, product categories and/or tags "
+"manually for each product individually. There is also an option to remove "
+"related products on per product basis."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:278
+msgid "Select box type"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:279
+msgid ""
+"Sets type of select box when relating products manually on product's admin "
+"edit page."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:284
+msgid "Chosen select"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:285
+msgid "Standard"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:290
+msgid "Extra products limit"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:291
+msgid ""
+"To display different related products on each page reload, WooCommerce takes "
+"extra products before shuffling the results. You can set this number for "
+"extra products here."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:298
+msgid "Categories and tags"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:299
+msgid ""
+"If enabled will override relation by categories and tags when relating "
+"manually or by product attribute."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:305
+msgid "Override"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:306
+msgid "Do not override (AND)"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:307
+msgid "Do not override (OR)"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:311
+msgid "WPML: Use default product ID"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:312
+msgid "If enabled will use default WPML product ID when relating manually."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:323
+msgid "Exclude"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:328
+msgid "Exclude from related"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:329
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:377
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:426
+msgid "Enable section"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:335
+msgid "Categories"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:343
+msgid "Tags"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:355
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:361
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:80
+msgid "Hide"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:360
+msgid "Hide related products"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:371
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:386
+msgid "Position"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:376
+msgid "Change related products position"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:392
+msgid "Before single product"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:393
+msgid "Before single product summary"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:394
+msgid "Inside single product summary"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:395
+msgid "After single product summary"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:396
+msgid "After single product"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:400
+msgid "Position priority"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:404
+msgid "Default priorities"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:405
+#, php-format
+msgid "Before single product: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:407
+#, php-format
+msgid "Before single product summary: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:409
+#, php-format
+msgid "Inside single product summary: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:411
+#, php-format
+msgid "After single product summary: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:425
+msgid "Change related products title"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:436
+#, php-format
+msgid "You can use shortcodes here, for example: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:437
+#, php-format
+msgid "For category / tag / taxonomy titles, e.g.: %s."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:439
+#, php-format
+msgid "For translations, e.g.: %s."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:452
+msgid "Advanced"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:457
+msgid "Clear all products transients"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:458
+msgid "Block size"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:465
+msgid "Time limit (seconds)"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-general.php:466
+msgid "Set to -1 for the default server time limit."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:78
+msgid "No"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:79
+msgid "Yes"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:89
+msgid "Related products"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:91
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:102
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:113
+msgid ""
+"Hold \"Control\" (Ctrl) key to select multiple values. \"Control\" and \"A\" "
+"to select all values."
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:100
+msgid "Related categories"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:111
+msgid "Related tags"
+msgstr ""
+
+#: includes/settings/class-alg-wc-related-products-manager-settings-per-product.php:159
+msgid "Related Products"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-related-products-manager.php:38
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-related-products-manager.php:43
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-related-products-manager.php:44
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-related-products-manager.php:83
+msgid "Your settings have been reset."
+msgstr ""

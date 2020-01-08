@@ -1,0 +1,43 @@
+[
+    {
+        "name": "codecasts/nusoap-php7",
+        "version": "dev-PHP7-removed-warnings",
+        "version_normalized": "dev-PHP7-removed-warnings",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aelia-co/nusoap-php7.git",
+            "reference": "bc694c30b517a7ff4dccba4d0247523e87a43fde"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aelia-co/nusoap-php7/zipball/bc694c30b517a7ff4dccba4d0247523e87a43fde",
+            "reference": "bc694c30b517a7ff4dccba4d0247523e87a43fde",
+            "shasum": ""
+        },
+        "time": "2017-03-24T09:21:33+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "lib/"
+            ]
+        },
+        "license": [
+            "LGPLv2"
+        ],
+        "authors": [
+            {
+                "name": "Dietrich Ayala",
+                "homepage": "http://sourceforge.net/u/dietricha/profile/"
+            },
+            {
+                "name": "Scott Nichol",
+                "homepage": "http://sourceforge.net/u/snichol/profile/"
+            }
+        ],
+        "description": "NuSOAP re-packaged for Packagist/Composer",
+        "support": {
+            "source": "https://github.com/aelia-co/nusoap-php7/tree/PHP7-removed-warnings"
+        }
+    }
+]
