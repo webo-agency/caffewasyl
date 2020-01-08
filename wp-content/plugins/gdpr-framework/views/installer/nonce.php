@@ -1,1 +1,0 @@
-<input type="hidden" value="<?= $nonce; ?>" name="gdpr_nonce" />
