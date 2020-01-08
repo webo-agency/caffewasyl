@@ -22,4 +22,4 @@ jobs:
         METHOD: ftp
         PORT: 21
         REMOTE_DIR: test
-        ARGS: --delete --ignore-time --exclude '.*' --include-glob-from=.lftp
+        ARGS: --verbose --delete --ignore-time --exclude '.*' --include-rx-from=.lftp
