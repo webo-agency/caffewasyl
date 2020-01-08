@@ -47,3 +47,6 @@ php.ini
 # PHP - generated
 error_log
 access_log
+
+# GitHub
+!.github
