@@ -1,0 +1,49 @@
+# Wordpress - ignore core, configuration, examples, generated data and logs.
+# https://github.com/github/gitignore/blob/master/WordPress.gitignore
+
+# Core
+/*
+!wp-content/
+
+# Configuration
+wp-config.php
+wp-config-local.php
+
+# Generated data without custom one
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+wp-content/plugins/index.php
+!wp-content/themes/
+wp-content/themes/index.php
+
+# Example plugins
+wp-content/plugins/hello.php
+
+# Example themes
+wp-content/themes/twenty*/
+
+# Example themes use node dependency
+node_modules/
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Self
+!*.gitignore
+
+# License - stay
+!license.txt
+
+# CPanel - generated
+.user.ini
+php.ini
+
+# Let's Encrypt - generated
+.well-known
+
+# PHP - generated
+error_log
+access_log
