@@ -22,4 +22,4 @@ jobs:
         METHOD: ftp
         PORT: 21
         REMOTE_DIR: test
-        ARGS: --verbose --delete --ignore-time --exclude '.*' -c `sed 's/^/-I /' .lftp | tr '\n' ' '`
+        ARGS: --verbose --delete --ignore-time
