@@ -13,12 +13,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Deploy to Server
-      uses: easingthemes/ssh-deploy@v2.0.7
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO --delete"
-          SOURCE: ""
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}
+        FTP_SERVER: ${{ secrets.FTP_HOST }}
+        FTP_USERNAME: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        METHOD: ftp
+        PORT: 21
+        REMOTE_DIR: test
+        ARGS: --delete --ignore-time
