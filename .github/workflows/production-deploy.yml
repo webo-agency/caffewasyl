@@ -15,7 +15,7 @@ jobs:
 
     - name: PreFTPDeploy
       run: |
-        echo "::set-env name=ARGS::'--delete --ignore-time -X .git*/ -X .git* --skip-noaccess --use-cache -v ' | $(sed 's/^/-X /' .lftp | tr '\n' ' ')"
+        echo "::set-env name=ARGS::--delete --ignore-time -X .git*/ -X .git* --skip-noaccess --use-cache -v | sed 's/^/-X /' .lftp | tr '\n' ' '"
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
