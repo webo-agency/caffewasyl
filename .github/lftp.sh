@@ -1,22 +1,23 @@
 #!/bin/sh
 
-printf '--delete --ignore-time -X .git*/ -X .git* --skip-noaccess --use-cache -v '
-printf '-X wp-admin/ '
-printf '-X wp-content/cache '
-printf '-X wp-content/languages '
-printf '-X wp-content/mu-plugins '
-printf '-X wp-content/plugins '
-printf '-X wp-content/themes/storefront '
-printf '-X wp-content/themes/twentynineteen '
-printf '-X wp-content/themes/twentytwenty '
-printf '-X wp-content/upgrade '
-printf '-X wp-content/uploads '
-printf '-X wp-content/advanced-cache.php '
-printf '-X wp-content/index.php '
-printf '-X wp-includes/ '
-printf '-X error_log '
-printf '-X index.php '
-printf '-X wp-* '
-printf '-X *.ini '
-printf '-X *.yaml '
-printf '-X xmlrpc.php '
+echo " --delete --ignore-time -X .git*/ -X .git* --skip-noaccess --use-cache -v
+ -X wp-admin/ 
+ -X wp-content/cache 
+ -X wp-content/languages 
+ -X wp-content/mu-plugins 
+ -X wp-content/plugins 
+ -X wp-content/themes/storefront 
+ -X wp-content/themes/twentynineteen 
+ -X wp-content/themes/twentytwenty 
+ -X wp-content/upgrade 
+ -X wp-content/uploads 
+ -X wp-content/advanced-cache.php 
+ -X wp-content/index.php 
+ -X wp-includes/ 
+ -X error_log 
+ -X index.php 
+ -X wp-* 
+ -X *.ini 
+ -X *.yaml 
+ -X xmlrpc.php 
+" |  tr '\n' ' '
