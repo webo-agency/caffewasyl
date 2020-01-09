@@ -15,7 +15,8 @@ jobs:
 
     - name: PreFTPDeploy
       run: |
-        sed 's/^/-X /' .lftp | tr '\n' ' ' > LFTP_EXCLUDES
+        echo $(cat env)
+        sed 's/^/-X /' .lftp | tr '\n' ' ' > env.LFTP_EXCLUDES
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
@@ -26,4 +27,4 @@ jobs:
         METHOD: ftp
         PORT: 21
         REMOTE_DIR: test
-        ARGS: --delete --ignore-time -X .git*/ -X .git* $(cat LFTP_EXCLUDES) --skip-noaccess --use-cache -v
+        ARGS: --delete --ignore-time -X .git*/ -X .git* ${{ env.LFTP_EXCLUDES }} --skip-noaccess --use-cache -v
