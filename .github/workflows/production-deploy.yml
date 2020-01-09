@@ -13,6 +13,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
+    - name: PreDeploy
+      run: |
+        LFTP_LIST_EXCLUDE=--exclude-glob .git* --skip-noaccess --use-cache -v --exclude-glob wp-admin/ --exclude-glob wp-content/cache/ --exclude-glob wp-content/languages/ --exclude-glob wp-content/mu-plugins/ --exclude-glob wp-content/plugins/ --exclude-glob wp-content/themes/storefront/ --exclude-glob wp-content/themes/twentynineteen/ --exclude-glob wp-content/themes/twentytwenty/ --exclude-glob wp-content/upgrade/ --exclude-glob wp-content/uploads/ --exclude-glob wp-content/advanced-cache.php --exclude-glob wp-content/index.php --exclude-glob wp-includes/ --exclude-glob error_log --exclude-glob index.php --exclude-glob wp-* --exclude-glob *.ini --exclude-glob *.yaml --exclude-glob xmlrpc.php
+
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
@@ -22,4 +26,4 @@ jobs:
         METHOD: ftp
         PORT: 21
         REMOTE_DIR: test
-        ARGS: --delete --ignore-time --exclude-glob .git*/ --exclude-glob .git* --skip-noaccess --use-cache -v --exclude-glob wp-admin/ --exclude-glob wp-content/cache/ --exclude-glob wp-content/languages/ --exclude-glob wp-content/mu-plugins/ --exclude-glob wp-content/plugins/ --exclude-glob wp-content/themes/storefront/ --exclude-glob wp-content/themes/twentynineteen/ --exclude-glob wp-content/themes/twentytwenty/ --exclude-glob wp-content/upgrade/ --exclude-glob wp-content/uploads/ --exclude-glob wp-content/advanced-cache.php --exclude-glob wp-content/index.php --exclude-glob wp-includes/ --exclude-glob error_log --exclude-glob index.php --exclude-glob wp-* --exclude-glob *.ini --exclude-glob *.yaml --exclude-glob xmlrpc.php
+        ARGS: --delete --ignore-time --exclude-glob .git*/ ${{ env.LFTP_LIST_EXCLUDE }}
