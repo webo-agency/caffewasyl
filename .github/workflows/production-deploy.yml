@@ -9,16 +9,13 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    env:
-      LFTP_EXCLUDES: .git
-
     steps:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Pre env Deploy
-      run: |
-        $LFTP_EXCLUDES = sed 's/^/-X /' .lftp | tr '\n' ' '
+    - name: PreFTPDeploy
+      env:
+        LFTP_EXCLUDES: $(sed 's/^/-X /' .lftp | tr '\n' ' ')
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
@@ -29,4 +26,4 @@ jobs:
         METHOD: ftp
         PORT: 21
         REMOTE_DIR: test
-        ARGS: --delete --ignore-time -X .git*/ -X .git* ${{ env.LFTP_EXCLUDES }} --skip-noaccess --use-cache -v
+        ARGS: --delete --ignore-time -X .git*/ -X .git* $LFTP_EXCLUDES --skip-noaccess --use-cache -v
