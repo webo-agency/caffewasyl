@@ -16,8 +16,7 @@ jobs:
     - name: PreFTPDeploy
       run: |
         chmod +x .github/lftp.sh
-        echo "::set-env name=ARGS::$(' --delete --ignore-time -X .git*/ -X .git* --skip-noaccess --use-cache -v
-          -X wp-admin/ 
+        echo "::set-env name=ARGS::$(' -X wp-admin/ 
           -X wp-content/cache 
           -X wp-content/languages 
           -X wp-content/mu-plugins 
@@ -47,4 +46,4 @@ jobs:
         METHOD: ftp
         PORT: 21
         REMOTE_DIR: test
-        ARGS: "${{env.ARGS}}"
+        ARGS: "--delete --ignore-time -X .git*/ -X .git* --skip-noaccess --use-cache -v ${{env.ARGS}}"
