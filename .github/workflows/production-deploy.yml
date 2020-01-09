@@ -13,11 +13,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: PreFTPDeploy
-      run: |
-        chmod +x .github/lftp.sh
-        echo "::set-env name=ARGS::-X wp-admin/ -X wp-content/cache -X wp-content/languages -X wp-content/mu-plugins -X wp-content/plugins -X wp-content/themes/storefront -X wp-content/themes/twentynineteen -X wp-content/themes/twentytwenty -X wp-content/upgrade -X wp-content/uploads -X wp-content/advanced-cache.php -X wp-content/index.php -X wp-includes/ -X error_log -X index.php -X wp-* -X *.ini -X *.yaml -X xmlrpc.php"
-
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
@@ -27,4 +22,4 @@ jobs:
         METHOD: ftp
         PORT: 21
         REMOTE_DIR: test
-        ARGS: "--delete --ignore-time -X .git*/ -X .git* --skip-noaccess --use-cache -v ${{env.ARGS}}"
+        ARGS: "--delete --ignore-time -X .git*/ -X .git* --skip-noaccess --use-cache -v -X wp-admin/ -X wp-content/cache -X wp-content/languages -X wp-content/mu-plugins -X wp-content/plugins -X wp-content/themes/storefront -X wp-content/themes/twentynineteen -X wp-content/themes/twentytwenty -X wp-content/upgrade -X wp-content/uploads -X wp-content/advanced-cache.php -X wp-content/index.php -X wp-includes/ -X error_log -X index.php -X wp-* -X *.ini -X *.yaml -X xmlrpc.php"
