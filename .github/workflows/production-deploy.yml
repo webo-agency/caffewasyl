@@ -21,5 +21,6 @@ jobs:
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         METHOD: ftp
         PORT: 21
-        REMOTE_DIR: test
-        ARGS: --delete --ignore-time -F 'wp-content/themes/caffewasyl/' -X .git*/ -X .git* -v
+        LOCAL_DIR: wp-content/themes/
+        REMOTE_DIR: test/wp-content/themes/
+        ARGS: --delete --ignore-time -F -X .git*/ -X .git* -v
