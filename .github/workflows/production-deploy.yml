@@ -1,4 +1,4 @@
-name: Deploy | Prodction
+name: Prodction | Deploy
 
 on: [push]
 
@@ -21,6 +21,5 @@ jobs:
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         METHOD: ftp
         PORT: 21
-        LOCAL_DIR: wp-content/themes/
-        REMOTE_DIR: test/wp-content/themes/
-        ARGS: --delete --ignore-time -X .git*/ -X .git* -v
+        REMOTE_DIR: test
+        ARGS: --delete --ignore-time -X .git*/ -X .git* `sed 's/^/-X /' .lftp | tr '\n' ' ' ` -v

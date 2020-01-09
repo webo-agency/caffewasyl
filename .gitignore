@@ -50,3 +50,6 @@ access_log
 
 # GitHub
 !.github
+
+# LFTP
+!.lftp
