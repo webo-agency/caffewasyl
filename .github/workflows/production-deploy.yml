@@ -14,8 +14,8 @@ jobs:
       uses: actions/checkout@v1
 
     - name: PreFTPDeploy
-      env:
-        LFTP_EXCLUDES: $(sed 's/^/-X /' .lftp | tr '\n' ' ')
+      run: |
+        sed 's/^/-X /' .lftp | tr '\n' ' ' > LFTP_EXCLUDES
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
