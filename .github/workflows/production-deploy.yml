@@ -22,4 +22,4 @@ jobs:
         METHOD: ftp
         PORT: 21
         REMOTE_DIR: test
-        ARGS: --verbose --delete --ignore-time --exclude-glob *!wp-content/ --exclude-glob wp-content/*!themes/ --exclude-glob wp-content/themes/*!caffewasyl/ --exclude-glob .git*/ --exclude-glob .git*
+        ARGS: --verbose --delete --ignore-time --directory wp-content/themes/caffewasyl/ --exclude-glob .git*/ --exclude-glob .git*
