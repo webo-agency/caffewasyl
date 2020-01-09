@@ -23,4 +23,4 @@ jobs:
         PORT: 21
         LOCAL_DIR: wp-content/themes/
         REMOTE_DIR: test/wp-content/themes/
-        ARGS: --delete --ignore-time -F -X .git*/ -X .git* -v
+        ARGS: --delete --ignore-time -X .git*/ -X .git* -v
