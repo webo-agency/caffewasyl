@@ -15,7 +15,9 @@ jobs:
 
     - name: PreFTPDeploy
       run: |
-        echo "::set-env name=ARGS::.github/lftp.sh"
+        chmod +x .github/lftp.sh
+        echo "sh .github/lftp.sh > LFTP_EXCLUDE"
+        ::set-env name=ARGS::$LFTP_EXCLUDE
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
